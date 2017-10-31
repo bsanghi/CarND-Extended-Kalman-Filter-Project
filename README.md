@@ -1,4 +1,22 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter Project
+
+[image1]: ./Docs/dataset1.png "dataset1"
+[image2]: ./Docs/dataset2.png "dataset2"
+
+Self-Driving Car Engineer Nanodegree Program
+
+
+In this project, I completed kalman filter to estimate position and speed of moving object using lidar and radar measurements. 
+
+Final result with dataset 1:
+
+![alt text][image1]
+
+Final result with dataset 2:
+
+![alt text][image2]
+
+
 Self-Driving Car Engineer Nanodegree Program
 
 In this project you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
