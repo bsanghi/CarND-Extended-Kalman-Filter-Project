@@ -3,10 +3,10 @@
 [image1]: ./Docs/dataset1.png "dataset1"
 [image2]: ./Docs/dataset2.png "dataset2"
 
-Self-Driving Car Engineer Nanodegree Program
-
+## The Project results
 
 In this project, I completed kalman filter to estimate position and speed of moving object using lidar and radar measurements. 
+My px, py, vx, and vy RMSE are less than the required values [.11, .11, 0.52, 0.52].
 
 Final result with dataset 1:
 
@@ -17,7 +17,7 @@ Final result with dataset 2:
 ![alt text][image2]
 
 
-Self-Driving Car Engineer Nanodegree Program
+## Self-Driving Car Engineer Nanodegree Program
 
 In this project you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
 
@@ -79,19 +79,6 @@ OUTPUT: values provided by the c++ program to the simulator
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
 4. Run it: `./ExtendedKF `
 
-## Editor Settings
-
-We've purposefully kept editor configuration files out of this repo in order to
-keep it as simple and environment agnostic as possible. However, we recommend
-using the following settings:
-
-* indent using spaces
-* set tab width to 2 spaces (keeps the matrices in source code aligned)
-
-## Code Style
-
-Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
-
 ## Generating Additional Data
 
 This is optional!
@@ -102,7 +89,7 @@ Matlab scripts that can generate additional data.
 
 ## Project Instructions and Rubric
 
-Note: regardless of the changes you make, your project must be buildable using
+Note: regardless of the changes you make, your project must be buildable using 
 cmake and make!
 
 More information is only accessible by people who are already enrolled in Term 2
