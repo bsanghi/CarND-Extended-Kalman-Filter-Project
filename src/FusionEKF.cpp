@@ -64,7 +64,7 @@ FusionEKF::~FusionEKF() {}
 
 
 void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
-    cout << "Initialization..." << endl;
+  
     /*****************************************************************************
     *  Initialization
     ****************************************************************************/
@@ -76,12 +76,10 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
         */
         
         // First measurement
-        cout << "EKF: " << endl;
         ekf_.x_ = VectorXd(4);
         ekf_.x_ << 1, 1, 1, 1;
 
         if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
-            cout << "Radar - step 1" << endl;
             
             // Convert radar from polar to cartesian coordinates and initialize state.
             double rho = measurement_pack.raw_measurements_[0];
